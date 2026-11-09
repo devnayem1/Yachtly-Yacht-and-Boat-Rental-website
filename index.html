@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+     <title>Yachtly- Yacht and Boat Rental </title>
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/flatpickr.min.css" rel="stylesheet">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="page-wrapper">
+
+    <!-- Preloader To Top Start -->
+    <div class="loading-screen" id="loading-screen">
+        <span class="bar top-bar"></span>
+        <span class="bar down-bar"></span>
+        <div class="animation-preloader">
+            <div class="spinner"><img src="images/loader.png" alt=""></div>
+            <div class="txt-loading">
+                <span data-text-preloader="Y" class="letters-loading">
+                    Y
+                </span>
+                <span data-text-preloader="A" class="letters-loading">
+                    A
+                </span>
+                <span data-text-preloader="C" class="letters-loading">
+                    C
+                </span>
+                <span data-text-preloader="H" class="letters-loading">
+                    H
+                </span>
+                <span data-text-preloader="T" class="letters-loading">
+                    T
+                </span>
+                <span data-text-preloader="L" class="letters-loading">
+                    L
+                </span>
+                <span data-text-preloader="Y" class="letters-loading">
+                    Y
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back To Top Start -->
+      <button id="back-top" class="back-to-top">
+          <i class="fa-regular fa-arrow-up"></i>
+      </button>
+
+      <!-- MouseCursor Start -->
+      <div class="mouseCursor cursor-outer"></div>
+      <div class="mouseCursor cursor-inner"></div>
+
+    <!-- Main Header-->
+    <header class="main-header header-style-one header-2">
+      <div class="container-fluid">
+        <!-- Header Lower -->
+      <div class="header-lower">
+        <div class="main-box">
+          <div class="nav-outer">
+             <div class="header-left">
+              <div class="logo">
+                <a href="index.html"><img src="images/logo/logo-2.png" alt=""></a>
+              </div>
+              <nav class="nav main-menu">
+                <ul class="navigation">
+                  <li class="current dropdown"><a href="#">Home</a>
+                    <ul>
+                      <li><a href="index.html">Home One</a></li>
+                      <li><a href="index-2.html">Home Two</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown">
+                    <a href="#">Pages</a>
+                    <ul>
+                      <li><a href="page-about.html">About</a></li>
+                      <li class="dropdown"><a href="#">Our Crew</a>
+                        <ul>
+                          <li><a href="page-team.html">Crew List</a></li>
+                          <li><a href="page-team-details.html">Crew Details</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="page-packages.html">Packages</a></li>
+                      <li><a href="page-pricing.html">Pricing</a></li>
+                      <li><a href="page-testimonial.html">Testimonials</a></li>
+                      <li><a href="page-faq.html">Faq</a></li>
+                      <li><a href="page-404.html">404</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown"><a href="#">Yacht</a>
+                    <ul>
+                      <li><a href="page-yacht-sell.html">Yacht Sell</a></li>
+                      <li><a href="page-yacht-details.html">Yacht Details</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="page-destination.html">Destination</a></li>
+                  <li class="dropdown">
+                    <a href="#">News</a>
+                    <ul>
+                      <li><a href="news-grid.html">News Grid</a></li>
+                      <li><a href="news-details.html">News Details</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="page-contact.html">Contact</a></li>
+                </ul>
+              </nav>
+             </div>
+
+            <div class="outer-box">
+              <!-- Main Menu End-->
+              <div class="ui-btn-outer">
+                <a href="page-contact.html" class="contact-btn">
+                  Get a Quote
+                </a>
+                <div class="line-1"></div>
+                <div class="ui-btn-search">
+                  <button class="ui-btn ui-btn search-btn main-header__search search-toggler">
+                      <i class="fa-regular fa-magnifying-glass"></i>
+                  </button>
+                </div>
+
+                <!-- Mobile Nav toggler -->
+              </div>
+              <div class="mobile-nav-toggler">
+                <i class="fa-light fa-bars"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Header Lower -->
+      </div>
+
+      <!-- Mobile Menu  -->
+      <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+
+        <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+        <nav class="menu-box">
+          <div class="upper-box">
+            <div class="nav-logo">
+              <a href="index.html"><img src="images/logo/logo.png" alt=""></a>
+            </div>
+            <div class="close-btn"><i class="icon fa fa-times"></i></div>
+          </div>
+
+          <ul class="navigation clearfix">
+            <!--Keep This Empty / Menu will come through Javascript-->
+          </ul>
+          <ul class="contact-list-one">
+            <li>
+              <!-- Contact Info Box -->
+              <div class="contact-info-box">
+                <i class="icon lnr-icon-phone-handset"></i>
+                <span class="title">Call Now</span>
+                <a href="tel:+92880098670">+92 (8800) - 98670</a>
+              </div>
+            </li>
+            <li>
+              <!-- Contact Info Box -->
+              <div class="contact-info-box">
+                <span class="icon lnr-icon-envelope1"></span>
+                <span class="title">Send Email</span>
+                <a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#274f424b576744484a5746495e0944484a"><span class="__cf_email__" data-cfemail="bbd3ded7cbfbd8d4d6cbdad5c295d8d4d6">[email&#160;protected]</span></a>
+              </div>
+            </li>
+            <li>
+              <!-- Contact Info Box -->
+              <div class="contact-info-box">
+                <span class="icon lnr-icon-clock"></span>
+                <span class="title">Send Email</span>
+                Mon - Sat 8:00 - 6:30, Sunday - CLOSED
+              </div>
+            </li>
+          </ul>
+
+          <ul class="social-links">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- End Mobile Menu -->
+
+      <!-- Header Search -->
+      <div class="search-popup">
+        <span class="search-back-drop"></span>
+        <button class="close-search"><span class="fa fa-times"></span></button>
+
+        <div class="search-inner">
+          <form method="post" action="https://html.kodesolution.com/2026/yachtly-html/index.html">
+            <div class="form-group">
+              <input type="search" name="search-field" value="" placeholder="Search..." required="">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- End Header Search -->
+
+      <!-- Sticky Header  -->
+      <div class="sticky-header">
+        <div class="auto-container">
+          <div class="inner-container">
+            <!--Logo-->
+            <div class="logo">
+              <a href="index.html"><img src="images/logo/logo-2.png" alt="img"></a>
+            </div>
+
+            <!--Right Col-->
+            <div class="nav-outer">
+              <!-- Main Menu -->
+              <nav class="main-menu">
+                <div class="navbar-collapse show collapse clearfix">
+                  <ul class="navigation clearfix">
+                    <!--Keep This Empty / Menu will come through Javascript-->
+                  </ul>
+                </div>
+              </nav>
+              <!-- Main Menu End-->
+
+              <!--Mobile Navigation Toggler-->
+               <div class="mobile-nav-toggler">
+                <i class="fa-light fa-bars"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Sticky Menu -->
+    </header>
+    <!--End Main Header -->
+
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+
+        <!-- Hero Section -->
+        <section class="hero-section-2 fix">
+          <div class="social-text">
+            <a href="#">facebook</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+          </div>
+          <div class="hero-2">
+             <div class="ripple-image ripples position-absolute w-100 h-100 top-0 start-0 z-0">
+              <img src="images/banner/hero-2-1.jpg" alt="">
+            </div>
+           <div class="hero-box-items">
+              <div class="hero-content">
+                <h1 class="hero-title split-title">
+                  <span>Experience Luxury</span> <br>
+                  On the open sea
+                </h1>
+                 <a href="page-about.html" class="btn-style-two wow fadeInUp" data-wow-delay=".3s">
+                    <span class="btn-arrow-left"> <i class="fa-regular fa-arrow-right"></i> </span>
+                    <span class="btn-title">Explore Now</span>
+                    <span class="btn-arrow-right"> <i class="fa-regular fa-arrow-right"></i> </span>
+                </a>
+              </div>
+               <div class="hero-thumb-items wow fadeInUp" data-wow-delay=".3s">
+                <div class="thumb">
+                  <img src="images/banner/hero-small1-1.jpg" alt="">
+                </div>
+                <div class="text">
+                  yachtly
+                </div>
+                <div class="content-box">
+                  <div class="h5 title">
+                    Premium <span>•</span> Private <br class="d-block">
+                    <span>•</span> Personalized
+                  </div>
+
+                  <a href="page-contact.html" class="arrow-icon">
+                    <i class="fa-sharp-duotone far fa-arrow-right"></i>
+                  </a>
+                </div>
+            </div>
+           </div>
+          </div>
+        </section>
+
+        <!-- Service Section -->
+        <div class="service-section-2 section-padding">
+      
+          <div class="container">
+            <div class="service-block-wraper">
+              <div class="service-block-two wow fadeInUp" data-wow-delay=".2s">
+                <div class="inner-block">
+                  <div class="icon"><img src="images/icons/service-icon2-1.png" alt=""></div>
+                  <div class="h5 title">
+                    Exclusive Luxury <br> Cruises
+                  </div>
+                  <div class="text">It is a long established fact that a reader will be distacted by the readable </div>
+                </div>
+              </div>
+              <div class="service-block-two wow fadeInUp" data-wow-delay=".4s">
+                <div class="inner-block">
+                  <div class="icon"><img src="images/icons/service-icon2-2.png" alt=""></div>
+                  <div class="h5 title">
+                    Premium Sailing Experience
+                  </div>
+                  <div class="text">It is a long established fact that a reader will be distacted by the readable </div>
+                </div>
+              </div>
+              <div class="service-block-two wow fadeInUp" data-wow-delay=".6s">
+                <div class="inner-block">
+                  <div class="icon"><img src="images/icons/service-icon2-3.png" alt=""></div>
+                  <div class="h5 title">
+                    Unforgettable Sea Journeys
+                  </div>
+                  <div class="text">It is a long established fact that a reader will be distacted by the readable </div>
+                </div>
+              </div>
+              <div class="service-block-two wow fadeInUp" data-wow-delay=".8s">
+                <div class="inner-block">
+                  <div class="icon"><img src="images/icons/service-icon2-4.png" alt=""></div>
+                  <div class="h5 title">
+                    Professional Captain Service
+                  </div>
+                  <div class="text">It is a long established fact that a reader will be distacted by the readable </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- About Section Start -->
+        <section class="about-section-2 fix section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="about-content-box-two">
+                    <div class="sec-title mb-0">
+                      <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">About Us</span>
+                      <h2 class="title split-title">
+                        <span>About Our</span> Yacht <br> Experience
+                      </h2>
+                    </div>
+                    <div class="text wow fadeInUp" data-wow-delay=".3s">
+                     We provide a world-class yachting experience designed for comfort, privacy, and unforgettable ocean adventures. Whether you're planning a family getaway, a romantic escape, or a luxury corporate event, our professional crew and modern fleet guarantee an exceptional journey from shore to sea.
+                    </div>
+                    <div class="about-list-items">
+                      <div class="small-image wow fadeInUp" data-wow-delay=".5s">
+                        <img src="images/resource/about-small-1-1.jpg" alt="">
+                      </div>
+                      <div class="about-right-box wow fadeInUp" data-wow-delay=".7s">
+                        <ul class="about-list">
+                          <li>
+                              Air-conditioned lounge & best foods
+                          </li>
+                          <li>
+                              WiFi & Navigation System  all time
+                          </li>
+                          <li>
+                              Best Sailing Experience for couples
+                          </li>
+                        </ul>
+                        <a href="page-about.html" class="btn-style-two">
+                            <span class="btn-arrow-left"> <i class="fa-regular fa-arrow-right"></i> </span>
+                            <span class="btn-title">Know about us</span>
+                            <span class="btn-arrow-right"> <i class="fa-regular fa-arrow-right"></i> </span>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="about-image-box-two wow fadeInUp" data-wow-delay=".3s">
+                    <div class="row g-4">
+                      <div class="col-md-7 col-sm-6 col-6">
+                        <div class="thumb-one">
+                          <img src="images/resource/about-image2-1.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="col-md-5 col-sm-6 col-6">
+                        <div class="thumb-two">
+                          <img src="images/resource/about-image2-2.jpg" alt="">
+                        </div>
+                        <div class="thumb-three">
+                          <img src="images/resource/about-image2-3.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                     <div class="year-text">
+                      <div class="text">
+                        Experience since 1990 Year
+                      </div>
+                      <div class="h2 title">
+                        19<span>90</span>
+                        <span class="dot-shape">
+                          <img src="images/icons/dot.png" alt="">
+                        </span>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Service Section Start -->
+        <section class="service-section fix section-padding bg-cover" style="background-image: url('images/background/service-bg-1-1.jpg');">
+          <div class="container">
+              <div class="sec-title text-center">
+                <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">YACHT FLEET</span>
+                <h2 class="title split-title">
+                  <span>Explore Our</span> Premium <br>
+                  Yacht Fleet
+                </h2>
+              </div>
+              <div class="swiper service-slider-one">
+                 <div class="swiper-wrapper">
+                <div class="swiper-slide wow fadeInUp" data-wow-delay=".2s">
+                  <div class="service-block-one">
+                    <div class="inner-block">
+                      <div class="image-block">
+                        <img src="images/resource/service1-1.jpg" alt="">
+                      </div>
+                      <div class="content-block">
+                        <div class="content">
+                            <div class="h4 title">
+                              <a href="page-yacht-details.html">Ocean Star 42</a>
+                            </div>
+                            <div class="text">
+                              Each yacht in our network is chosen to feel personal  from superyachts to classic sailing vessels, every detail is selected for its unique 
+                            </div>
+                            <div class="icon-list-items">
+                               <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-1.png" alt="">
+                                  </div>
+                                  <span>4 Beds</span>
+                               </div>
+                                <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-2.png" alt="">
+                                  </div>
+                                  <span>5 Guests</span>
+                               </div>
+                                <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-3.png" alt="">
+                                  </div>
+                                  <span>357 m</span>
+                               </div>
+                            </div>
+                        </div>
+                        <a href="page-yacht-details.html" class="link-btns">
+                          Learn More <i class="fa-regular fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide wow fadeInUp" data-wow-delay=".4s">
+                  <div class="service-block-one">
+                    <div class="inner-block">
+                      <div class="image-block">
+                        <img src="images/resource/service1-2.jpg" alt="">
+                      </div>
+                      <div class="content-block">
+                        <div class="content">
+                            <div class="h4 title">
+                              <a href="page-yacht-details.html">sunseeker 134</a>
+                            </div>
+                            <div class="text">
+                              Each yacht in our network is chosen to feel personal  from superyachts to classic sailing vessels, every detail is selected for its unique 
+                            </div>
+                            <div class="icon-list-items">
+                               <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-1.png" alt="">
+                                  </div>
+                                  <span>4 Beds</span>
+                               </div>
+                                <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-2.png" alt="">
+                                  </div>
+                                  <span>5 Guests</span>
+                               </div>
+                                <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-3.png" alt="">
+                                  </div>
+                                  <span>357 m</span>
+                               </div>
+                            </div>
+                        </div>
+                        <a href="page-yacht-details.html" class="link-btns">
+                          Learn More <i class="fa-regular fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide wow fadeInUp" data-wow-delay=".6s">
+                  <div class="service-block-one">
+                    <div class="inner-block">
+                      <div class="image-block">
+                        <img src="images/resource/service1-3.jpg" alt="">
+                      </div>
+                      <div class="content-block">
+                        <div class="content">
+                            <div class="h4 title">
+                              <a href="page-yacht-details.html">Golden Wave 55</a>
+                            </div>
+                            <div class="text">
+                              Each yacht in our network is chosen to feel personal  from superyachts to classic sailing vessels, every detail is selected for its unique 
+                            </div>
+                            <div class="icon-list-items">
+                               <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-1.png" alt="">
+                                  </div>
+                                  <span>4 Beds</span>
+                               </div>
+                                <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-2.png" alt="">
+                                  </div>
+                                  <span>5 Guests</span>
+                               </div>
+                                <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-3.png" alt="">
+                                  </div>
+                                  <span>357 m</span>
+                               </div>
+                            </div>
+                        </div>
+                        <a href="page-yacht-details.html" class="link-btns">
+                          Learn More <i class="fa-regular fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide wow fadeInUp" data-wow-delay=".8s">
+                  <div class="service-block-one">
+                    <div class="inner-block">
+                      <div class="image-block">
+                        <img src="images/resource/service1-4.jpg" alt="">
+                      </div>
+                      <div class="content-block">
+                        <div class="content">
+                            <div class="h4 title">
+                              <a href="page-yacht-details.html">Elite Mariner 90</a>
+                            </div>
+                            <div class="text">
+                              Each yacht in our network is chosen to feel personal  from superyachts to classic sailing vessels, every detail is selected for its unique 
+                            </div>
+                            <div class="icon-list-items">
+                               <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-1.png" alt="">
+                                  </div>
+                                  <span>4 Beds</span>
+                               </div>
+                                <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-2.png" alt="">
+                                  </div>
+                                  <span>5 Guests</span>
+                               </div>
+                                <div class="icon-items">
+                                  <div class="icon">
+                                    <img src="images/icons/service-icon1-3.png" alt="">
+                                  </div>
+                                  <span>357 m</span>
+                               </div>
+                            </div>
+                        </div>
+                        <a href="page-yacht-details.html" class="link-btns">
+                          Learn More <i class="fa-regular fa-arrow-right"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+               <div class="swiper-dot">
+                    <div class="dot"></div>
+                </div>
+              <div class="text-center">
+                 <div class="info-box">
+                <div class="icon">
+                    <svg width="30" height="15" viewBox="0 0 30 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.246094 13.4279C8.46234 7.54419 15.4819 2.97081 20.8578 3.1829L17.3247 0C10.6608 3.569 4.9678 8.04487 0.246094 13.4279Z" fill="white"/>
+                    <path d="M0.624023 13.9518C0.826382 13.8436 1.03158 13.7433 1.23725 13.6428L1.54683 13.4956C1.65025 13.4465 1.75368 13.3978 1.85877 13.3551C2.06799 13.2658 2.27911 13.1823 2.49022 13.0967C2.70134 13.0117 2.9134 12.9288 3.12807 12.856C3.5574 12.7118 3.98649 12.557 4.42387 12.4418C4.64185 12.38 4.86054 12.3206 5.07947 12.2608C5.29958 12.2087 5.52016 12.1578 5.74098 12.1091C6.18191 12.003 6.62852 11.9336 7.07489 11.8555C7.13075 11.8464 7.1866 11.8363 7.24246 11.8284L7.4105 11.8062L7.74706 11.7632L8.08385 11.7212L8.25236 11.7017L8.42135 11.6873C8.64666 11.6675 8.87245 11.6508 9.09824 11.6334C9.15481 11.6294 9.21114 11.6236 9.2677 11.6215L9.4374 11.6151L9.7768 11.6026C10.2293 11.5804 10.6828 11.5932 11.136 11.5968C12.948 11.6587 14.7619 11.9275 16.5117 12.4729C16.7306 12.5397 16.9474 12.6162 17.1644 12.6881C17.3805 12.7664 17.5957 12.8465 17.8096 12.9294L18.1289 13.0614C18.2349 13.1059 18.3414 13.1485 18.446 13.1985L18.7606 13.3426C18.8131 13.3661 18.865 13.3917 18.917 13.417C18.9689 13.4423 19.0209 13.4673 19.0725 13.4938C19.2796 13.5962 19.4839 13.7065 19.6872 13.8171L19.9889 13.9917C20.0898 14.0487 20.1877 14.113 20.2867 14.1742C20.68 14.4232 21.0663 14.6904 21.4194 15.0061C20.9913 14.8504 20.5638 14.7176 20.1362 14.5914C19.7085 14.4668 19.2808 14.351 18.8517 14.248C18.4247 14.1383 17.9938 14.0496 17.5661 13.9573L16.9221 13.8317C16.7067 13.7942 16.4925 13.754 16.2776 13.7177C15.418 13.5748 14.5574 13.4587 13.6945 13.3783C12.8318 13.2966 11.9682 13.2436 11.1031 13.2128L10.4539 13.2009L10.2916 13.197C10.2374 13.1951 10.1834 13.1942 10.1292 13.1954L9.80449 13.1976H9.47953C9.37113 13.1976 9.26273 13.1973 9.15457 13.2012C8.93778 13.207 8.72122 13.2134 8.50419 13.2168L8.34135 13.2198L8.17875 13.228L7.85332 13.243L7.52766 13.2567L7.36459 13.2628C7.31039 13.2655 7.25619 13.2704 7.20175 13.2741C6.76769 13.3054 6.33173 13.3237 5.89719 13.3667L5.24325 13.4197C5.02574 13.4429 4.80776 13.466 4.58931 13.4871L4.26128 13.5181C4.20637 13.5227 4.15169 13.5282 4.09726 13.5358L3.93348 13.5553C3.71479 13.5803 3.4961 13.6071 3.27646 13.6309L3.1115 13.648L3.0289 13.6565L2.94677 13.6678C2.83719 13.6827 2.72808 13.6989 2.61803 13.7117C2.39815 13.7388 2.17828 13.7677 1.95651 13.7912C1.84528 13.8015 1.73617 13.8217 1.62564 13.8351L1.29382 13.8789C1.07182 13.9058 0.84934 13.9335 0.624023 13.9527V13.9518Z" fill="white"/>
+                    <path d="M30 3.72552L29.2975 4.83535C28.7742 5.66117 28.2453 6.48211 27.7165 7.30336L26.9175 8.5305L26.1121 9.75216L25.2994 10.9683C25.0255 11.3712 24.7545 11.7768 24.4786 12.1772C23.9288 12.9817 23.3733 13.7813 22.8029 14.5684C23.2348 13.6679 23.6817 12.7803 24.1342 11.8969C24.3593 11.4538 24.5896 11.0153 24.8168 10.5743L25.5076 9.25911L26.2056 7.94938L26.9099 6.64514C27.1627 6.18256 27.416 5.71967 27.6697 5.2574C25.5995 5.50758 23.5411 5.87265 21.4957 6.33066C19.0632 6.87399 16.6505 7.5508 14.2543 8.3175C11.8582 9.08511 9.47915 9.94323 7.10836 10.855C6.51619 11.0844 5.92166 11.3084 5.33186 11.5489C4.74206 11.789 4.14516 12.0099 3.55678 12.258L2.66948 12.6181C2.3734 12.737 2.07589 12.8531 1.78099 12.9771C1.19025 13.2224 0.59761 13.4635 0 13.6941C0.548381 13.3355 1.10221 12.9872 1.65792 12.6428C1.79638 12.556 1.93578 12.4704 2.07613 12.3887L2.49718 12.1409L3.34212 11.6509C3.48294 11.5687 3.62376 11.4876 3.7653 11.4072C3.90706 11.3273 4.05002 11.2514 4.1925 11.1731L4.61994 10.9403L5.04856 10.7102L5.47742 10.4802L5.69208 10.365C5.7638 10.3272 5.83598 10.2912 5.90793 10.2541L6.77559 9.8192C9.09124 8.66397 11.4585 7.64039 13.8714 6.7716C16.2839 5.90282 18.7422 5.18975 21.2344 4.66897C23.7259 4.15032 26.2527 3.82578 28.7863 3.75752L29.9998 3.72461L30 3.72552Z" fill="white"/>
+                    </svg>
+
+                </div>
+                <p>
+                  Discover The Care You Deserve - <a href="page-contact.html">Book Your Free Visit Today  <img src="images/icons/arrow-icon.png" alt=""></a>
+                </p>
+              </div>
+              </div>
+
+          </div>
+        </section>
+
+        <!-- Package Section Start -->
+        <section class="package-section fix section-padding">
+          <div class="container">
+              <div class="row g-4 sec-title justify-content-between align-items-end mb-60 text-center text-lg-start">
+                <div class="col-lg-7">
+                  <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">PACKAGES</span>
+                  <h2 class="title split-title">
+                    <span>Choose Your</span> Perfect <br>
+                    See Experience
+                  </h2>
+                </div>
+                <div class="col-lg-3 text-center text-lg-end">
+                  <a href="page-packages.html" class="btn-style-two">
+                    <span class="btn-arrow-left"> <i class="fa-regular fa-arrow-right"></i> </span>
+                    <span class="btn-title">Explore All</span>
+                    <span class="btn-arrow-right"> <i class="fa-regular fa-arrow-right"></i> </span>
+                </a>
+                </div>
+              </div>
+              <div class="package-block-one wow fadeInUp" data-wow-delay=".2s">
+                <div class="inner-box active">
+                  <div class="content-box">
+                    <div class="h3 title">
+                     Private Yacht Charter
+                    </div>
+                    <div class="text">
+                      Enjoy full privacy for your family, friends, or guests.
+                    </div>
+                  </div>
+                  <div class="pricing-box">
+                    <div class="h2 price">
+                      $70
+                      <sub>/Per hour</sub>
+                    </div>
+                    <a href="page-packages.html" class="arrow-icon">
+                       <img src="images/icons/arrow-icon2.png" alt="">
+                    </a>
+                  </div>
+                  <div class="hover-image d-none d-lg-block">
+                    <img src="images/resource/package1-1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="package-block-one wow fadeInUp" data-wow-delay=".4s">
+                <div class="inner-box">
+                  <div class="content-box">
+                    <div class="h3 title">
+                     Sunset Cruise Package
+                    </div>
+                    <div class="text">
+                      A romantic evening sail with stunning views.
+                    </div>
+                  </div>
+                  <div class="pricing-box">
+                    <div class="h2 price">
+                      $50
+                      <sub>/Per hour</sub>
+                    </div>
+                    <a href="page-packages.html" class="arrow-icon">
+                       <img src="images/icons/arrow-icon2.png" alt="">
+                    </a>
+                  </div>
+                  <div class="hover-image d-none d-lg-block">
+                    <img src="images/resource/package1-1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="package-block-one wow fadeInUp" data-wow-delay=".6s">
+                <div class="inner-box">
+                  <div class="content-box">
+                    <div class="h3 title">
+                     Island Tour Experience
+                    </div>
+                    <div class="text">
+                      Host meetings, launches, or celebrations at sea.
+                    </div>
+                  </div>
+                  <div class="pricing-box">
+                    <div class="h2 price">
+                      $110
+                      <sub>/Per hour</sub>
+                    </div>
+                    <a href="page-packages.html" class="arrow-icon">
+                       <img src="images/icons/arrow-icon2.png" alt="">
+                    </a>
+                  </div>
+                  <div class="hover-image d-none d-lg-block">
+                    <img src="images/resource/package1-1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="package-block-one wow fadeInUp" data-wow-delay=".8s">
+                <div class="inner-box">
+                  <div class="content-box">
+                    <div class="h3 title">
+                    Corporate Yacht Event
+                    </div>
+                    <div class="text">
+                     Discover beautiful islands and crystal-clear waters.
+                    </div>
+                  </div>
+                  <div class="pricing-box">
+                    <div class="h2 price">
+                      $150
+                      <sub>/Per hour</sub>
+                    </div>
+                    <a href="page-packages.html" class="arrow-icon">
+                       <img src="images/icons/arrow-icon2.png" alt="">
+                    </a>
+                  </div>
+                  <div class="hover-image d-none d-lg-block">
+                    <img src="images/resource/package1-1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <!-- Destination Section   -->
+      <section class="destination-section">
+        <div class="bg-white destination-area section-padding">
+          <div class="auto-container">
+          <div class="outer-box tabs-box">
+            <div class="row align-items-center mb-40">
+              <div class="content-column col-xl-6 col-lg-5">
+                <div class="inner-column">
+                  <div class="sec-title mb-0">
+                    <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">popular destination</span>
+                      <h2 class="title split-title">
+                        <span>Explore The</span> World’s Finest Coastal Destinations
+                      </h2>
+                  </div>
+                </div>
+              </div>
+              <div class="content-column col-xl-6 col-lg-7">
+                <div class="inner-column">
+                  <div class="default-tabs"> 
+                    <!--Tabs <Box-->
+                    <ul class="tab-buttons clearfix">
+                      <li class="tab-btn active-btn" data-tab="#tab1"><span class="title">Jamaica</span></li>
+                      <li class="tab-btn" data-tab="#tab2"><span class="title">Dominic</span></li>
+                      <li class="tab-btn" data-tab="#tab3"><span class="title">Haiti</span></li>
+                      <li class="tab-btn" data-tab="#tab4"><span class="title">Mexico</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tabs-content">
+              <div class="icon-wheel-compass-3"></div>
+              <!--Tab-->
+              <div class="tab active-tab" id="tab1">
+                <div class="tab-block">
+                  <div class="bg-image" style="background-image:url(images/background/destination1-1.png);"></div>
+                  <div class="bg-image-2" style="background-image:url(images/icons/map-line-1-1.png);"></div>
+                  <div class="image-box">
+                    <figure class="image overlay-anim wow zoomIn animated"> <img src="images/resource/destination1-1.png" alt=""> </figure>
+                    <span>Jamaica</span>
+                  </div>
+                  <div class="name-box">
+                    <div class="name">Jamaica</div>
+                  </div>
+                  <div class="image-box pull-down">
+                    <figure class="image overlay-anim wow zoomIn animated"> <img src="images/resource/destination1-2.png" alt=""> </figure>
+                    <span>Atlantic</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Tab-->
+              <div class="tab" id="tab2">
+               <div class="tab-block">
+                  <div class="bg-image" style="background-image:url(images/background/destination1-1.png);"></div>
+                  <div class="bg-image-2" style="background-image:url(images/icons/map-line-1-1.png);"></div>
+                  <div class="image-box">
+                    <figure class="image overlay-anim wow zoomIn animated"> <img src="images/resource/destination1-1.png" alt=""> </figure>
+                    <span>Jamaica</span>
+                  </div>
+                  <div class="name-box">
+                    <div class="name">Jamaica</div>
+                  </div>
+                  <div class="image-box pull-down">
+                    <figure class="image overlay-anim wow zoomIn animated"> <img src="images/resource/destination1-2.png" alt=""> </figure>
+                    <span>Atlantic</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Tab-->
+              <div class="tab" id="tab3">
+               <div class="tab-block">
+                  <div class="bg-image" style="background-image:url(images/background/destination1-1.png);"></div>
+                  <div class="bg-image-2" style="background-image:url(images/icons/map-line-1-1.png);"></div>
+                  <div class="image-box">
+                    <figure class="image overlay-anim wow zoomIn animated"> <img src="images/resource/destination1-1.png" alt=""> </figure>
+                    <span>Jamaica</span>
+                  </div>
+                  <div class="name-box">
+                    <div class="name">Jamaica</div>
+                  </div>
+                  <div class="image-box pull-down">
+                    <figure class="image overlay-anim wow zoomIn animated"> <img src="images/resource/destination1-2.png" alt=""> </figure>
+                    <span>Atlantic</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!--Tab-->
+              <div class="tab" id="tab4">
+                <div class="tab-block">
+                  <div class="bg-image" style="background-image:url(images/background/destination1-1.png);"></div>
+                  <div class="bg-image-2" style="background-image:url(images/icons/map-line-1-1.png);"></div>
+                  <div class="image-box">
+                    <figure class="image overlay-anim wow zoomIn animated"> <img src="images/resource/destination1-1.png" alt=""> </figure>
+                    <span>Jamaica</span>
+                  </div>
+                  <div class="name-box">
+                    <div class="name">Jamaica</div>
+                  </div>
+                  <div class="image-box pull-down">
+                    <figure class="image overlay-anim wow zoomIn animated"> <img src="images/resource/destination1-2.png" alt=""> </figure>
+                    <span>Atlantic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      </section>
+      <!--End Destination Section --> 
+
+        <!-- Choose Us Section Start -->
+        <section class="choose-us-section-area-2">
+          <div class="choose-us-section-2 mt-0 section-padding fix bg-cover" style="background-image: url('images/background/choose-us-bg-2-1.jpg');">
+          <div class="container">
+            <div class="sec-title text-center">
+              <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">Why Choose Us</span>
+                <h2 class="title split-title">
+                <span>Why Our</span> Yacht Experiences <br> Stand Above the Rest
+                </h2>
+            </div>
+            <div class="row">
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                <div class="choose-us-block-two">
+                  <div class="inner-block style-left-0">
+                    <div class="icon-block">
+                      <img src="images/icons/choose-us-icon1-1.png" alt="">
+                    </div>
+                    <div class="content-block">
+                        <div class="h4 title">Professional Crew</div>
+                        <div class="text">
+                          It is a long established fact that a 
+                          reader will be distracted by the reable content of a page when looking 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                <div class="choose-us-block-two">
+                  <div class="inner-block">
+                    <div class="icon-block">
+                      <img src="images/icons/choose-us-icon1-2.png" alt="">
+                    </div>
+                    <div class="content-block">
+                        <div class="h4 title">Luxury & Comfort</div>
+                        <div class="text">
+                          It is a long established fact that a 
+                          reader will be distracted by the reable content of a page when looking 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                <div class="choose-us-block-two">
+                  <div class="inner-block">
+                    <div class="icon-block">
+                      <img src="images/icons/choose-us-icon1-3.png" alt="">
+                    </div>
+                    <div class="content-block">
+                        <div class="h4 title">Modern & Safe Fleet</div>
+                        <div class="text">
+                          It is a long established fact that a 
+                          reader will be distracted by the reable content of a page when looking 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                <div class="choose-us-block-two">
+                  <div class="inner-block before-none">
+                    <div class="icon-block">
+                      <img src="images/icons/choose-us-icon1-4.png" alt="">
+                    </div>
+                    <div class="content-block">
+                        <div class="h4 title">Transparent Pricing</div>
+                        <div class="text">
+                          It is a long established fact that a 
+                          reader will be distracted by the reable content of a page when looking 
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        
+        <!-- Banner Section Start -->
+        <div class="banner-image-2 bg-cover" style="background-image: url('images/resource/banner-image-2-1.jpg');">
+          <!-- start marquee-section -->
+          <div class="marquee-section">
+            <div class="marquee">
+              <div class="marquee-group">
+                <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Sleep
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Relax
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Live
+                </div>
+                <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Enjoy
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Sea View
+                </div>
+                <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Sleep
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Relax
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Live
+                </div>
+                <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Enjoy
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Sea View
+                </div>
+              </div>
+               <div class="marquee-group">
+                <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Sleep
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Relax
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Live
+                </div>
+                <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Enjoy
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Sea View
+                </div>
+                <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Sleep
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Relax
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Live
+                </div>
+                <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Enjoy
+                </div>
+                 <div class="text">
+                  <img src="images/icons/star.png" alt="">
+                  Sea View
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pricing Section Start -->
+        <section class="pricing-section fix section-padding">
+          <div class="container">
+            <div class="sec-title text-center">
+              <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">Pricing Table</span>
+                <h2 class="title split-title">
+                  <span>Choose Your</span> Plan According <br> To You Need
+                </h2>
+            </div>
+            <div class="row">
+              <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="pricing-block-one">
+                  <div class="inner-box">
+                      <div class="card-content">
+                        <div class="price-header">
+                            <div class="text">
+                              Luxury Yacht
+                            </div>
+                            <div class="h5 plan-badge">Premium Package</div>
+                            <div class="price"><span>$450</span></div>
+                            <div class="text-2">
+                              Per visit (up to 2 bed / 1 bath)
+                            </div>
+                            <div class="save-text">
+                              Save 35%
+                            </div>
+                        </div>
+                        <div class="pricing-list-wrap">
+                          <ul class="pricing-list">
+                          <li>
+                           <i class="fa-solid fa-circle-check"></i>
+                              5 Hours Private Yacht Tour
+                          </li>
+                          <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                              Gourmet Dining Included
+                          </li>
+                          <li>
+                          <i class="fa-solid fa-circle-check"></i>
+                            Water Sports Activities
+                          </li>
+                          <li>
+                           <i class="fa-solid fa-circle-check"></i>
+                            Sunset Viewing Experience
+                          </li>
+                          <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Private room facilities
+                          </li>
+                          <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                            Free Support
+                          </li>
+                        </ul>
+                       <div class="pricing-button">
+                         <a href="page-pricing.html" class="btn-style-one w-100">Select Plan</a>
+                       </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+               <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="pricing-block-one active">
+                  <div class="inner-box">
+                      <div class="card-content">
+                        <div class="price-header">
+                            <div class="text">
+                              Luxury Yacht
+                            </div>
+                            <div class="h5 plan-badge">VIP Luxury Package</div>
+                            <div class="price"><span>$120</span></div>
+                            <div class="text-2">
+                              Per visit (up to 3 bed / 2 bath)
+                            </div>
+                            <div class="save-text">
+                              Save 50%
+                            </div>
+                        </div>
+                        <div class="pricing-list-wrap">
+                          <ul class="pricing-list">
+                          <li>
+                           <i class="fa-solid fa-circle-check"></i>
+                             Private Chef & Premium Service
+                          </li>
+                          <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                             Full-Day Yacht Experience
+                          </li>
+                          <li>
+                          <i class="fa-solid fa-circle-check"></i>
+                            Entertainment & Music Setup
+                          </li>
+                          <li>
+                           <i class="fa-solid fa-circle-check"></i>
+                           Exclusive Island Visit
+                          </li>
+                          <li class="color-2">
+                            <i class="fa-solid fa-circle-check"></i>
+                            Private room facilities
+                          </li>
+                          <li>
+                            <i class="fa-solid fa-circle-check"></i>
+                           Free Support
+                          </li>
+                        </ul>
+                          <div class="pricing-button">
+                            <a href="page-pricing.html" class="btn-style-one w-100">Select Plan</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+               <div class="col-xxl-4 col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                <div class="pricing-block-one">
+                  <div class="inner-box">
+                      <div class="card-content">
+                        <div class="price-header">
+                            <div class="text">
+                              Luxury Yacht
+                            </div>
+                            <div class="h5 plan-badge">Ultimate Package</div>
+                            <div class="price"><span>$170</span></div>
+                            <div class="text-2">
+                              Per visit (up to 3 bed / 2 bath)
+                            </div>
+                            <div class="save-text">
+                              Save 75%
+                            </div>
+                        </div>
+                        <div class="pricing-list-wrap">
+                             <ul class="pricing-list">
+                              <li>
+                              <i class="fa-solid fa-circle-check"></i>
+                                  Personalized Travel Experience
+                              </li>
+                              <li>
+                                <i class="fa-solid fa-circle-check"></i>
+                                 Overnight Luxury Stay
+                              </li>
+                              <li>
+                              <i class="fa-solid fa-circle-check"></i>
+                                Unlimited Food & Beverages
+                              </li>
+                              <li>
+                              <i class="fa-solid fa-circle-check"></i>
+                                Premium Suites & Ocean Views
+                              </li>
+                              <li class="color-3">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Private room facilities
+                              </li>
+                              <li class="color-3">
+                                <i class="fa-solid fa-circle-check"></i>
+                               Free Support
+                              </li>
+                            </ul>
+                          <div class="pricing-button">
+                            <a href="page-pricing.html" class="btn-style-one w-100">Select Plan</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="pricing-check-list wow fadeInUp" data-wow-delay=".3s">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 8C16 6.91424 15.5236 5.8899 14.7156 5.24619C14.809 4.1631 14.422 3.10204 13.6547 2.33346C12.8874 1.56621 11.8298 1.17958 10.801 1.29511C9.45718 -0.411668 6.55408 -0.44372 5.24165 1.27173C4.15807 1.17558 3.09918 1.56488 2.33187 2.33346C1.56523 3.10137 1.17824 4.1631 1.29434 5.18943C-0.411092 6.53428 -0.443786 9.43967 1.27098 10.7538C1.17757 11.8369 1.56456 12.898 2.33187 13.6665C3.09918 14.4338 4.15807 14.8218 5.1856 14.7049C6.52939 16.4117 9.43249 16.4437 10.7449 14.7283C11.8258 14.8191 12.8867 14.4351 13.6547 13.6665C14.4213 12.8986 14.8083 11.8369 14.6922 10.8106C15.5236 10.1108 16 9.08643 16 8.00067V8ZM11.6897 7.04244L8.52773 10.0927C7.75175 10.868 6.48202 10.8613 5.70604 10.0841L4.20344 8.68712C3.93388 8.43604 3.91787 8.01336 4.16875 7.74358C4.42029 7.47314 4.84331 7.45845 5.11154 7.70886L6.63148 9.12249C6.91038 9.40094 7.33207 9.40028 7.59228 9.13918L10.7629 6.08021C11.0285 5.82513 11.4509 5.83248 11.7064 6.09758C11.9626 6.36267 11.9546 6.78603 11.6897 7.04178V7.04244Z" fill="#E2A76F"/>
+                  </svg>
+
+                  Get 30 Day Free Trial
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 8C16 6.91424 15.5236 5.8899 14.7156 5.24619C14.809 4.1631 14.422 3.10204 13.6547 2.33346C12.8874 1.56621 11.8298 1.17958 10.801 1.29511C9.45718 -0.411668 6.55408 -0.44372 5.24165 1.27173C4.15807 1.17558 3.09918 1.56488 2.33187 2.33346C1.56523 3.10137 1.17824 4.1631 1.29434 5.18943C-0.411092 6.53428 -0.443786 9.43967 1.27098 10.7538C1.17757 11.8369 1.56456 12.898 2.33187 13.6665C3.09918 14.4338 4.15807 14.8218 5.1856 14.7049C6.52939 16.4117 9.43249 16.4437 10.7449 14.7283C11.8258 14.8191 12.8867 14.4351 13.6547 13.6665C14.4213 12.8986 14.8083 11.8369 14.6922 10.8106C15.5236 10.1108 16 9.08643 16 8.00067V8ZM11.6897 7.04244L8.52773 10.0927C7.75175 10.868 6.48202 10.8613 5.70604 10.0841L4.20344 8.68712C3.93388 8.43604 3.91787 8.01336 4.16875 7.74358C4.42029 7.47314 4.84331 7.45845 5.11154 7.70886L6.63148 9.12249C6.91038 9.40094 7.33207 9.40028 7.59228 9.13918L10.7629 6.08021C11.0285 5.82513 11.4509 5.83248 11.7064 6.09758C11.9626 6.36267 11.9546 6.78603 11.6897 7.04178V7.04244Z" fill="#E2A76F"/>
+                  </svg>
+
+                 No Any Hidden Fees Pay
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16 8C16 6.91424 15.5236 5.8899 14.7156 5.24619C14.809 4.1631 14.422 3.10204 13.6547 2.33346C12.8874 1.56621 11.8298 1.17958 10.801 1.29511C9.45718 -0.411668 6.55408 -0.44372 5.24165 1.27173C4.15807 1.17558 3.09918 1.56488 2.33187 2.33346C1.56523 3.10137 1.17824 4.1631 1.29434 5.18943C-0.411092 6.53428 -0.443786 9.43967 1.27098 10.7538C1.17757 11.8369 1.56456 12.898 2.33187 13.6665C3.09918 14.4338 4.15807 14.8218 5.1856 14.7049C6.52939 16.4117 9.43249 16.4437 10.7449 14.7283C11.8258 14.8191 12.8867 14.4351 13.6547 13.6665C14.4213 12.8986 14.8083 11.8369 14.6922 10.8106C15.5236 10.1108 16 9.08643 16 8.00067V8ZM11.6897 7.04244L8.52773 10.0927C7.75175 10.868 6.48202 10.8613 5.70604 10.0841L4.20344 8.68712C3.93388 8.43604 3.91787 8.01336 4.16875 7.74358C4.42029 7.47314 4.84331 7.45845 5.11154 7.70886L6.63148 9.12249C6.91038 9.40094 7.33207 9.40028 7.59228 9.13918L10.7629 6.08021C11.0285 5.82513 11.4509 5.83248 11.7064 6.09758C11.9626 6.36267 11.9546 6.78603 11.6897 7.04178V7.04244Z" fill="#E2A76F"/>
+                  </svg>
+
+                 You Can Cancel Anytime
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Feature Amenities Section Start -->
+        <section class="feature-amenities-2 fix section-padding">
+          <div class="feature-amenities-image-two fix wow fadeInUp" data-wow-delay=".3s">
+            <img data-speed=".8" src="images/resource/amenities-1-1.jpg" alt="">
+          </div>
+          <div class="shape1 d-none d-xxl-block">
+            <img src="images/icons/shape1-1.png" alt="">
+          </div>
+          <div class="container">
+            <div class="row g-4 justify-content-between align-items-center">
+              <div class="col-lg-5">
+                 
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-amenities-list-two">
+                   <div class="sec-title">
+                    <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">features and amenities</span>
+                      <h2 class="title split-title text-white">
+                        <span>Unmatched Comfort</span> and Elegance Afloat
+                      </h2>
+                  </div>
+                  <div class="inner-box wow fadeInUp">
+                      <div class="icon-box">
+                        <div class="icon">
+                          <img src="images/icons/amenities-icon1-1.png" alt="">
+                        </div>
+                        <div class="h4 title">VIP Cabins</div>
+                      </div>
+                      <a href="page-yacht-sell.html" class="arrow-icon">
+                        <i class="fa-solid fa-arrow-up-right"></i>
+                    </a>
+                  </div>
+                  <div class="inner-box wow fadeInUp" data-wow-delay=".2s">
+                      <div class="icon-box">
+                        <div class="icon">
+                          <img src="images/icons/amenities-icon1-2.png" alt="">
+                        </div>
+                        <div class="h4 title">Air-Conditioned Lounge</div>
+                      </div>
+                      <a href="page-yacht-sell.html" class="arrow-icon">
+                        <i class="fa-solid fa-arrow-up-right"></i>
+                    </a>
+                  </div>
+                  <div class="inner-box wow fadeInUp" data-wow-delay=".4s">
+                      <div class="icon-box">
+                        <div class="icon">
+                          <img src="images/icons/amenities-icon1-3.png" alt="">
+                        </div>
+                        <div class="h4 title">Professional Crew</div>
+                      </div>
+                      <a href="page-yacht-sell.html" class="arrow-icon">
+                        <i class="fa-solid fa-arrow-up-right"></i>
+                    </a>
+                  </div>
+                  <div class="inner-box mb-style-0 wow fadeInUp" data-wow-delay=".6s">
+                      <div class="icon-box">
+                        <div class="icon">
+                          <img src="images/icons/amenities-icon1-4.png" alt="">
+                        </div>
+                        <div class="h4 title">Gourmet Catering</div>
+                      </div>
+                      <a href="page-yacht-sell.html" class="arrow-icon">
+                        <i class="fa-solid fa-arrow-up-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+         <!-- Team Section Start -->
+        <section class="team-section fix section-padding pb-0">
+          <div class="container">
+            <div class="sec-title text-center">
+              <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">Cabin Crew</span>
+                <h2 class="title split-title">
+                 <span> Our Skilled</span> & Friendly Cabin <br> Crew Team
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
+                  <div class="team-block-one">
+                    <div class="inner-block">
+                      <div class="image-box">
+                        <img src="images/resource/team-1-1.jpg" alt="">
+                        <div class="social-icon">
+                          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                      </div>
+                      <div class="content-box">
+                        <div class="h5 title">
+                            <a href="page-team-details.html">Captain James Walker</a>
+                        </div>
+                        <div class="text">
+                          Lead Yacht Captain
+                        </div>
+                      </div>
+                      <div class="arrow-shape">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M25 25H0L25 0V25Z" fill="#F3F6FD"/>
+                      </svg>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
+                  <div class="team-block-one">
+                    <div class="inner-block">
+                      <div class="image-box">
+                        <img src="images/resource/team-1-2.jpg" alt="">
+                          <div class="social-icon">
+                          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                      </div>
+                      <div class="content-box">
+                        <div class="h5 title">
+                            <a href="page-team-details.html">Maria Lopez</a>
+                        </div>
+                        <div class="text">
+                          Senior Cabin Crew
+                        </div>
+                      </div>
+                      <div class="arrow-shape">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M25 25H0L25 0V25Z" fill="#F3F6FD"/>
+                      </svg>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
+                  <div class="team-block-one">
+                    <div class="inner-block">
+                      <div class="image-box">
+                        <img src="images/resource/team-1-3.jpg" alt="">
+                          <div class="social-icon">
+                          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                      </div>
+                      <div class="content-box">
+                        <div class="h5 title">
+                            <a href="page-team-details.html">Daniel Carter</a>
+                        </div>
+                        <div class="text">
+                          Deck Supervisor
+                        </div>
+                      </div>
+                      <div class="arrow-shape">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M25 25H0L25 0V25Z" fill="#F3F6FD"/>
+                      </svg>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
+                  <div class="team-block-one">
+                    <div class="inner-block">
+                      <div class="image-box">
+                        <img src="images/resource/team-1-4.jpg" alt="">
+                          <div class="social-icon">
+                          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                        </div>
+                      </div>
+                      <div class="content-box">
+                        <div class="h5 title">
+                            <a href="page-team-details.html">Captain James Walker</a>
+                        </div>
+                        <div class="text">
+                          Lead Yacht Captain
+                        </div>
+                      </div>
+                      <div class="arrow-shape">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M25 25H0L25 0V25Z" fill="#F3F6FD"/>
+                      </svg>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="bottom-text">
+              <div class="icon-items">
+                <div class="client-1">
+                  <img src="images/resource/client1-1.png" alt="">
+                </div>
+                <div class="icon">
+                    <img src="images/icons/call2.png" alt="">
+                  </div>
+              </div>
+              <p>
+                 Let's make something great work together <a href="#">Get Free Quote</a>
+              </p>
+            </div>
+          </div>
+        </section>
+
+         <!-- Gallery Section Start -->
+        <div class="gallery-section fix section-padding">
+          <div class="row g-3">
+              <div class="col-lg-6">
+                <div class="row g-3">
+                  <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="gallery-block-two">
+                      <div class="inner-block">
+                        <div class="image-block">
+                            <img src="images/resource/gallery2-1.jpg" alt="">
+                            <a href="#" class="icon">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="gallery-block-two">
+                      <div class="inner-block">
+                        <div class="image-block height-add">
+                            <img src="images/resource/gallery2-2.jpg" alt="">
+                            <a href="#" class="icon">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="gallery-block-two">
+                      <div class="inner-block style-margin">
+                        <div class="image-block height-add">
+                            <img src="images/resource/gallery2-3.jpg" alt="">
+                            <a href="#" class="icon">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="row g-3">
+                  <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="gallery-block-two">
+                      <div class="inner-block">
+                        <div class="image-block">
+                            <img src="images/resource/gallery2-4.jpg" alt="">
+                            <a href="#" class="icon">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                    <div class="gallery-block-two">
+                      <div class="inner-block">
+                        <div class="image-block height-add">
+                            <img src="images/resource/gallery2-5.jpg" alt="">
+                            <a href="#" class="icon">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="gallery-block-two">
+                      <div class="inner-block style-margin">
+                        <div class="image-block height-add">
+                            <img src="images/resource/gallery2-6.jpg" alt="">
+                            <a href="#" class="icon">
+                              <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+         <!-- Brand Section Start -->
+        <div class="brand-section-2 section-padding pt-0">
+          <div class="container">
+            <p class="brand-text">
+              Trusted By Leading Brands
+            </p>
+            <div class="swiper brand-slider-2 wow fadeInUp">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                  <div class="brand-box-1">
+                    <span class="brand-img-1">
+                        <img src="images/resource/brand-2-1.png" alt="img">
+                    </span>
+                    <span class="brand-img-1">
+                         <img src="images/resource/brand-2-1.png" alt="img">
+                    </span>
+                  </div>
+              </div>
+                <div class="swiper-slide">
+                  <div class="brand-box-1">
+                    <span class="brand-img-1">
+                         <img src="images/resource/brand-2-2.png" alt="img">
+                    </span>
+                    <span class="brand-img-1">
+                         <img src="images/resource/brand-2-2.png" alt="img">
+                    </span>
+                  </div>
+              </div>
+                <div class="swiper-slide">
+                  <div class="brand-box-1">
+                    <span class="brand-img-1">
+                        <img src="images/resource/brand-2-3.png" alt="img">
+                    </span>
+                    <span class="brand-img-1">
+                        <img src="images/resource/brand-2-3.png" alt="img">
+                    </span>
+                  </div>
+              </div>
+                <div class="swiper-slide">
+                  <div class="brand-box-1">
+                    <span class="brand-img-1">
+                         <img src="images/resource/brand-2-4.png" alt="img">
+                    </span>
+                    <span class="brand-img-1">
+                         <img src="images/resource/brand-2-4.png" alt="img">
+                    </span>
+                  </div>
+              </div>
+              <div class="swiper-slide">
+                  <div class="brand-box-1">
+                    <span class="brand-img-1">
+                        <img src="images/resource/brand-2-5.png" alt="img">
+                    </span>
+                    <span class="brand-img-1">
+                         <img src="images/resource/brand-2-5.png" alt="img">
+                    </span>
+                  </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+
+        <!-- Testimonial Section Start -->
+        <section class="testimonial-section fix pt-0 section-padding">
+          <div class="container">
+              <div class="row justify-content-between">
+                <div class="col-xxl-5 col-xl-6 col-lg-6">
+                 <div class="tetsimonial-image-items">
+                      <div class="testi-ratting">
+                          <div class="rattings">
+                              <h2 class="ratting-count">
+                                4.8
+                              </h2>
+                              <div class="star">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </div>
+                          </div>
+                          <div class="testi-line"></div>
+                          <p>
+                            From 3k Members, <br class="d-block">
+                            Reviewed by Google
+                          </p>
+                      </div>
+                      <div class="thumb fix">
+                        <img src="images/resource/testimonial-image1-1.jpg" alt="">
+                      </div>
+                  </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6">
+                   <div class="sec-title">
+                      <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">Testimonial</span>
+                        <div class="h2 title split-title">
+                         <span>The Best</span> Customers Says About Our Action
+                        </div>
+                    </div>
+                  <div class="testimonial-area-one">
+                    <div class="swiper testimonial-slider">
+                      <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="testimonial-block-one">
+                              <div class="inner-box">
+                                  <div class="quote-icon">
+                                    <img src="images/icons/quote-icon-1-1.png" alt="">
+                                  </div>
+                                  <div class="text">
+                                 “Our yacht experience was absolutely incredible from beginning to end. The luxurious interiors, attentive crew, and breathtaking ocean views created memories we will cherish forever. Every detail was handled with professionalism.”
+                                  </div>
+                                  <div class="infu">
+                                    <div class="image">
+                                      <img src="images/resource/client1-1.jpg" alt="">
+                                    </div>
+                                    <div class="name-info">
+                                      <div class="h5 name">Emily Carter</div>
+                                      <span>Senior Project Manager</span>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="array-button">
+                        <button class="array-prev"><i class="fa-solid fa-chevron-left"></i></button>
+                        <button class="array-next"><i class="fa-solid fa-chevron-right"></i></button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+
+         <!-- Contact Section Start -->
+      <section class="contact-section-new p-relative z-index-9 contact-bg section-padding">
+        <div class="contact-bg-shape">
+          <img src="images/icons/contact-line.png" alt="img">
+        </div>
+        <div class="contact-image tm-gsap-img-parallax">
+          <img src="images/resource/contact-image1-2.jpg" alt="img">
+        </div>
+        <h2 class="get-in-text2 get-text">book your yavht</h2>
+        <div class="container">
+          <div class="row g-4 justify-content-between">
+            <div class="col-lg-6">
+              <div class="contact-info-1">
+                <div class="sec-title">
+                    <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">Booking Yacht</span>
+                      <h2 class="title split-title text-white">
+                        <span>Explore the</span> Ocean in Pure Comfort
+                      </h2>
+                  </div>
+                <ul class="contact-list wow fadeInUp" data-wow-delay=".3s">
+                  <li>
+                    <div class="icon">
+                      <img src="images/icons/location.png" alt="">
+                    </div>
+                    <div class="contact-text">
+                      <div class="h5 info-title">Central Office:</div>
+                      <div class="text">
+                        16958 CA-58, Mojave, CA 93501 <br class="d-block">
+                        United States
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="icon">
+                     <img src="images/icons/email.png" alt="">
+                    </div>
+                    <div class="contact-text">
+                      <div class="h5 info-title">Contact Us</div>
+                      <a href="tel:6295550129">Phone: +629 555-0129</a> <br class="d-block">
+                      <a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#90f4f5fdffd0f5e8f1fde0fcf5bef3fffd">Email: <span class="__cf_email__" data-cfemail="84e0e1e9ebc4e1fce5e9f4e8e1aae7ebe9">[email&#160;protected]</span></a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="contact-box-1">
+                <h3 class="char-animation title2">Yacht Reservation</h3>
+                <form id="contact_form" name="contact_form" action="https://html.kodesolution.com/2026/yachtly-html/includes/sendmail.php" method="post">
+                  <div class="row g-4">
+                    <div class="col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                      <div class="form-clt">
+                        <input type="text" name="form_name" class="form-control required" placeholder="Full Name*">
+                      </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                      <div class="form-clt">
+                        <input type="email" name="form_email" class="form-control required email" placeholder="Email Address*">
+                      </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                      <div class="form-clt">
+                        <input class="date-pick form-control" type="text" name="form_checkin" placeholder="Check In">
+                      </div>
+                    </div>
+                    <div class="col-md-6 wow fadeInUp" data-wow-delay=".8s">
+                      <div class="form-clt">
+                        <input class="date-pick form-control" type="text" name="form_checkout" placeholder="Check Out">
+                      </div>
+                    </div>
+                    <div class="col-md-12 wow fadeInUp" data-wow-delay=".2s">
+                      <div class="form-clt">
+                        <input type="hidden" name="form_subject" value="Yacht Reservation">
+                        <textarea name="form_message" class="form-control required" placeholder="Message"></textarea>
+                      </div>
+                    </div>
+                    <div class="col-md-12 wow fadeInUp" data-wow-delay=".4s">
+                      <input name="form_botcheck" class="form-control" type="hidden" value="">
+                      <button type="submit" class="btn-style-one w-100" data-loading-text="Please wait...">
+                        <span>Submit Now</span>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+        <!-- News Section Start -->
+        <section class="news-section fix section-padding">
+          <div class="container">
+            <div class="row g-4 sec-title justify-content-between align-items-end text-center text-lg-start">
+              <div class="col-lg-6">
+                <span class="sub-title tz-sub-tilte tz-sub-anim tx-subTitle">News & Articles</span>
+                <h2 class="title split-title">
+                 <span>Stay Informant</span> With Our Latest Blog Posts
+                </h2>
+              </div>
+              <div class="col-lg-4 text-center text-lg-end">
+                <a href="news-grid.html" class="btn-style-two">
+                    <span class="btn-arrow-left"> <i class="fa-regular fa-arrow-right"></i> </span>
+                    <span class="btn-title">See all articles</span>
+                    <span class="btn-arrow-right"> <i class="fa-regular fa-arrow-right"></i> </span>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="news-block-one">
+                    <div class="inner-block">
+                      <div class="image-block">
+                        <img src="images/resource/news-1-1.jpg" alt="">
+                      </div>
+                      <div class="content-block">
+                        <ul class="news-tag">
+                            <li>
+                                <a href="#">Cabin crew</a>
+                            </li>
+                            <li>
+                                <div class="square-box"></div>
+                            </li>
+                            <li>
+                              10 January, 2026
+                            </li>
+                        </ul>
+                        <div class="h4 title">
+                          <a href="news-details.html">
+                            How to Choose the Perfect <br> Yacht for Your Next Adventure
+                          </a>
+                        </div>
+                        <a href="news-details.html" class="read-more-btn">
+                          <span class="arrow-left"> <i class="fa-sharp-duotone far fa-arrow-right"></i></span>
+                          <span class="btn-title">Read More</span>
+                          <span class="arrow-right"> <i class="fa-sharp-duotone far fa-arrow-right"></i></span>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                <div class="news-block-one">
+                    <div class="inner-block">
+                      <div class="image-block">
+                        <img src="images/resource/news-1-2.jpg" alt="">
+                      </div>
+                      <div class="content-block">
+                        <ul class="news-tag">
+                            <li>
+                                <a href="#">Cabin crew</a>
+                            </li>
+                            <li>
+                                <div class="square-box"></div>
+                            </li>
+                            <li>
+                              10 January, 2026
+                            </li>
+                        </ul>
+                        <div class="h4 title">
+                          <a href="news-details.html">
+                            Top 7 Yacht Destinations You <br> Must Explore This Season
+                          </a>
+                        </div>
+                        <a href="news-details.html" class="read-more-btn">
+                          <span class="arrow-left"> <i class="fa-sharp-duotone far fa-arrow-right"></i></span>
+                          <span class="btn-title">Read More</span>
+                          <span class="arrow-right"> <i class="fa-sharp-duotone far fa-arrow-right"></i></span>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                <div class="news-block-one">
+                    <div class="inner-block">
+                      <div class="image-block">
+                        <img src="images/resource/news-1-3.jpg" alt="">
+                      </div>
+                      <div class="content-block">
+                        <ul class="news-tag">
+                            <li>
+                                <a href="#">Cabin crew</a>
+                            </li>
+                            <li>
+                                <div class="square-box"></div>
+                            </li>
+                            <li>
+                              10 January, 2026
+                            </li>
+                        </ul>
+                        <div class="h4 title">
+                          <a href="news-details.html">
+                            Why Private Yacht Tours Are <br> Becoming the New Luxury Trend
+                          </a>
+                        </div>
+                        <a href="news-details.html" class="read-more-btn">
+                          <span class="arrow-left"> <i class="fa-sharp-duotone far fa-arrow-right"></i></span>
+                          <span class="btn-title">Read More</span>
+                          <span class="arrow-right"> <i class="fa-sharp-duotone far fa-arrow-right"></i></span>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+         <!-- Footer Section -->
+        <footer class="footer-section-2 fix">
+          <div class="footer-area-2 fix">
+            <div class="footer-shape-1 d-none d-xxl-block">
+              <img src="images/icons/footer-shape1.png" alt="img">
+            </div>
+            <div class="footer-shape-2 d-none d-xxl-block">
+              <img src="images/icons/footer-shape2.png" alt="img">
+            </div>
+           <div class="ripple-image ripples position-absolute w-100 h-100 top-0 start-0 z-0">
+              <img src="images/resource/footer-bg1-1.jpg" alt="">
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-5 col-lg-5 wow fadeInUp" data-wow-delay=".3s">
+                  <div class="footer-colume-two">
+                    <a href="index.html" class="footer-logo">
+                      <img src="images/logo/footer-logo.png" alt="">
+                    </a>
+                    <div class="footer-form-content">
+                      <div class="title h3">
+                        Subscribe for Yacht News <br> & Sailing Updates.
+                      </div>
+                      <form action="#">
+                          <input type="text" placeholder="Enter email">
+                          <button class="email-btn" type="submit">
+                              <i class="fa-solid fa-arrow-right"></i>
+                          </button>
+                      </form>
+                      <div class="lebel-text">
+                        Stay tuned and Subscribe to our newsletter
+                      </div>
+                      <div class="social-icon">
+                          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xl-7 col-lg-7">
+                  <div class="footer-widget-wrapper-two">
+                    <div class="row g-4">
+                      <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="footer-widget-items">
+                            <div class="widget-head">
+                                <div class="widget-title h5">Company</div>
+                            </div>
+                            <ul class="list-area">
+                                <li>
+                                    <a href="page-about.html">
+                                        About 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-contact.html">
+                                        Careers
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-contact.html">
+                                    Privacy policy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-contact.html">
+                                    Terms & condition
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-contact.html">
+                                    Contact us 
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 ps-xl-4 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="footer-widget-items">
+                            <div class="widget-head">
+                                <div class="widget-title h5">Yacht Type</div>
+                            </div>
+                            <ul class="list-area">
+                                <li>
+                                    <a href="page-yacht-details.html">
+                                       Ocean Majesty 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-yacht-details.html">
+                                       Private Yacht Charter
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-yacht-details.html">
+                                    Corporate Yacht Event
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-yacht-details.html">
+                                    Golden Voyager
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="page-yacht-details.html">
+                                    Golden Wave
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="col-xl-5 col-lg-6 col-md-6 col-sm-6 ps-xl-5 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="footer-widget-items">
+                            <div class="widget-head">
+                                <div class="widget-title h5">Get in Touch</div>
+                            </div>
+                            <ul class="user-links">
+                                <li><a href="#">1901 Thornridge Cir. Shiloh, Hawaii 81063 </a></li>
+                                <li><a href="#"><span class="__cf_email__" data-cfemail="c4adaaa2ab84a1a9a5ada8eaa7aba9">[email&#160;protected]</span></a></li>
+                                <li><div class="h6 text-white"><a href="#">+1 840 841 25 69</a></div></li>
+                              </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom-two">
+              <div class="container">
+                  <div class="footer-bottom-wrapper">
+                     @2026 All Rights Reserved || Designed By Developer Nayem.
+                      <ul class="footer-list wow fadeInUp" data-wow-delay=".5s">
+                          <li>
+                              <a href="page-contact.html">Terms & Condition</a>
+                          </li>
+                          <li>
+                              <a href="page-contact.html">Privacy Policy</a>
+                          </li>
+                          <li>
+                              <a href="page-contact.html">Contact us</a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+            </div>
+          <div class="text-center yachtly-title">
+            <div class="h2 title">
+              Yachtly
+            </div>
+          </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+   </div>
+
+  <!-- End Page Wrapper -->
+  <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/ripple-2.js"></script>
+  <script src="js/gsap.js"></script>
+  <script src="js/three.js"></script>
+  <script src="js/hover-effect.umd.js"></script>
+  <script src="js/gsap-scroll-to-plugin.js"></script>
+  <script src="js/gsap-scroll-smoother.js"></script>
+  <script src="js/gsap-scroll-trigger.js"></script>
+  <script src="js/gsap-split-text.js"></script>
+  <script src="js/split-type.min.js"></script>
+  <script src="js/parallaxie.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/bxslider.js"></script>
+  <script src="js/nice-select.min.js"></script>
+  <script src="js/knob.js"></script>
+  <script src="js/appear.js"></script>
+  <script src="js/flatpickr.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/mixitup.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/script-gsap.js"></script>
+
+  <!-- form submit -->
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.form.min.js"></script>
+  <script src="js/contact-form-script.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a57d3c668932f417',t:'MTc5NDIzMTY5Ng=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='../../cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main0ecf.js?ray=a57d3c668932f417',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"88f4fa328f314d4c95a104b4a60b2313","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>
